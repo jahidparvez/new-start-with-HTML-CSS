@@ -10,7 +10,7 @@ span {
     color: orange;
 }
 
-section {
+.flex {
     display: flex;
     margin-bottom: 100px;
 }
@@ -45,4 +45,39 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+/* 3rd part */
+.orenge {
+    color: orange;
+}
+
+.shadow {
+    box-shadow: 10px 10px 40px gray;
+    padding: 2%;
+    border-radius: 10px;
+
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#side {
+
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+    border-left: 7px solid
+}
+
+#side-two {
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid
+}
+
+footer p {
+    text-align: center;
 }
